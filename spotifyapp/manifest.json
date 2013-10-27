@@ -1,22 +1,19 @@
 {
-    "ApiPermissions": {
-        "core": ["private"]
-    },
-    "AppIcon": {
-        "36x18": "spartify-icon.png"
-    },
-    "AppName": {
-        "en": "Spartify"
-    },
-    "BundleIdentifier": "spartify",
-    "BundleType": "Application",
-    "SupportedLanguages": [
-        "en"
-    ],
-    "RequiredPermissions": [
-        "http://www.spartify.com",
-        "http://*.facebook.com",
-        "https://*.facebook.com",
-        "https://connect.facebook.net"
-    ]
+	"BundleType": "Application",
+	"AppIcon": {
+		"36x18": "spartify-icon.png"
+	},
+	"AppName": {
+		"en": "Spartify"
+	},
+	"SupportedLanguages": [
+		"en"
+	],
+	"RequiredPermissions": [
+		"http://www.spartify.com",
+		"https://chart.googleapis.com"
+	],
+	"ApiPermissions": {
+		"core": ["private"]
+	}
 }
